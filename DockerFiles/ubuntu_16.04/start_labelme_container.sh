@@ -2,7 +2,7 @@
 
 docker run \
 --name labelme \
--p 8080:80 \
+-p 8888:80 \
 -d \
 --entrypoint "/bin/bash" \
 -t labelme

@@ -27,11 +27,13 @@ COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY apache2.conf /etc/apache2/apache2.conf
 
 #Clone LabelMe,move it and make
-RUN git clone https://github.com/CSAILVision/LabelMeAnnotationTool.git
+RUN git clone https://github.com/aleksbha/LabelMeAnnotationTool.git
+RUN cd LabelMeAnnotationTool/Images && wget https://www.dropbox.com/s/qi2v0r9czg4e3l2/cars_whole.zip && unzip cars_whole.zip && rm -rf cars_whole.zip
 RUN mv ./LabelMeAnnotationTool/ /var/www/html/LabelMeAnnotationTool/
 RUN cd /var/www/html/LabelMeAnnotationTool/ && make
 RUN chown -R www-data:www-data /var/www/html
 
+RUN wget -P https://www.dropbox.com/s/qi2v0r9czg4e3l2/cars_whole.zip?dl=0
 # port binding
 EXPOSE 80
 
