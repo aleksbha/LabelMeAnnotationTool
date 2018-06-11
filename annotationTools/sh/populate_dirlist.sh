@@ -25,7 +25,7 @@
 # Pointer to Images/ and DirLists/ directories:
 HOMEIMAGES='../../Images'
 HOMEDIRLIST='../../annotationCache/DirLists'
-HOMEVIDEOS='../../VLMFrames'
+#HOMEVIDEOS='../../VLMFrames'
 
 # Inputs:
 dirlist=$1
@@ -57,18 +57,18 @@ find $ImageDir | while read i; do
 done
 
 # Populate dirlist:
-ls $VideoDir | while read i; do
-	idname=$VideoDir$i;
-	ls $idname | while read j; do
-		dirn=$idname/$j;
-		dname=$i/$j;
-		ls $dirn | while read na; do
-			videoname=$(basename $na);
-			echo "$dname,$videoname";
-			echo "$dname,$videoname" >> $HOMEDIRLIST/$videodirlist;
-		done
-	done
-done
+#ls $VideoDir | while read i; do
+#	idname=$VideoDir$i;
+#	ls $idname | while read j; do
+#		dirn=$idname/$j;
+#		dname=$i/$j;
+#		ls $dirn | while read na; do
+#			videoname=$(basename $na);
+#			echo "$dname,$videoname";
+#			echo "$dname,$videoname" >> $HOMEDIRLIST/$videodirlist;
+#		done
+#	done
+#done
 
 
 
