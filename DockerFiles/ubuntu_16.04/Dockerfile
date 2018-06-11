@@ -1,7 +1,8 @@
 FROM ubuntu:16.04
 
 # update ubuntu config
-RUN apt-get update -y
+RUN apt-get update -y && apt-get install -y wget unzip
+
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" upgrade
 
 # install dependencies for labelme
@@ -27,13 +28,15 @@ COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY apache2.conf /etc/apache2/apache2.conf
 
 #Clone LabelMe,move it and make
+RUN ls
 RUN git clone https://github.com/aleksbha/LabelMeAnnotationTool.git
+RUN ls
 RUN cd LabelMeAnnotationTool/Images && wget https://www.dropbox.com/s/qi2v0r9czg4e3l2/cars_whole.zip && unzip cars_whole.zip && rm -rf cars_whole.zip
 RUN mv ./LabelMeAnnotationTool/ /var/www/html/LabelMeAnnotationTool/
 RUN cd /var/www/html/LabelMeAnnotationTool/ && make
 RUN chown -R www-data:www-data /var/www/html
 
-RUN wget -P https://www.dropbox.com/s/qi2v0r9czg4e3l2/cars_whole.zip?dl=0
+RUN wget https://www.dropbox.com/s/qi2v0r9czg4e3l2/cars_whole.zip
 # port binding
 EXPOSE 80
 
