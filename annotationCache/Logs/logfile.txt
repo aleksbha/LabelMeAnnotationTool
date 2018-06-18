@@ -78,3 +78,70 @@
 12-Jun-2018 10:41:44 194.127.28.8 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
 12-Jun-2018 10:41:44 194.127.28.8 *start_loading
 12-Jun-2018 10:41:44 194.127.28.8 *done_loading_Images/cars_whole/002718.jpg
+18-Jun-2018 06:55:44 194.127.28.5 *start_loading
+18-Jun-2018 06:55:44 194.127.28.5 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+18-Jun-2018 06:56:02 194.127.28.5 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+18-Jun-2018 06:56:02 194.127.28.5 *start_loading
+18-Jun-2018 06:56:10 194.127.28.5 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+18-Jun-2018 06:56:10 194.127.28.5 *start_loading
+18-Jun-2018 06:56:11 194.127.28.5 *done_loading_Images/cars_whole/005636.jpg
+18-Jun-2018 06:59:45 194.127.28.5 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+18-Jun-2018 06:59:45 194.127.28.5 *start_loading
+18-Jun-2018 06:59:45 194.127.28.5 *done_loading_Images/cars_whole/005636.jpg
+18-Jun-2018 07:04:41 194.127.28.5 *start_polygon
+18-Jun-2018 07:05:15 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 07:05:21 cars_whole 005636 0 1 194.127.28.5  headlight 1 anonymous cpts_not_modified 0 0
+18-Jun-2018 07:05:24 194.127.28.5 *start_polygon
+18-Jun-2018 07:05:38 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 07:05:43 cars_whole 005636 1 2 194.127.28.5  headlight 2 anonymous cpts_not_modified 0 0
+18-Jun-2018 07:05:47 194.127.28.5 *start_polygon
+18-Jun-2018 07:06:26 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 07:06:33 cars_whole 005636 2 3 194.127.28.5  fender 3 anonymous cpts_not_modified 0 0
+18-Jun-2018 07:06:44 194.127.28.5 *start_polygon
+18-Jun-2018 07:06:53 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 07:06:57 cars_whole 005636 3 4 194.127.28.5  door 4 anonymous cpts_not_modified 0 0
+18-Jun-2018 07:07:02 194.127.28.5 *start_polygon
+18-Jun-2018 07:07:20 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 07:07:27 194.127.28.5 *start_polygon
+18-Jun-2018 07:08:29 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 07:08:36 cars_whole 005636 4 5 194.127.28.5  windshield 5 anonymous cpts_not_modified 0 0
+18-Jun-2018 07:08:55 194.127.28.5 *start_polygon
+18-Jun-2018 07:09:17 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 07:09:21 cars_whole 005636 5 6 194.127.28.5  side_glass 6 anonymous cpts_not_modified 0 0
+18-Jun-2018 07:18:23 194.127.28.5 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+18-Jun-2018 07:18:23 194.127.28.5 *start_loading
+18-Jun-2018 07:18:23 194.127.28.5 *done_loading_Images/cars_whole/005636.jpg
+18-Jun-2018 08:30:46 194.127.28.5 *start_polygon
+18-Jun-2018 08:31:10 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:31:15 cars_whole 005636 6 7 194.127.28.5  side_glass 1 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:31:32 194.127.28.5 *start_polygon
+18-Jun-2018 08:31:55 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:31:59 cars_whole 013256 0 1 194.127.28.5  headlight 2 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:32:02 194.127.28.5 *start_polygon
+18-Jun-2018 08:32:31 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:32:38 cars_whole 013256 1 2 194.127.28.5  headlight 3 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:32:48 194.127.28.5 *start_polygon
+18-Jun-2018 08:33:18 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:33:22 cars_whole 013256 2 3 194.127.28.5  windshield 4 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:44:30 194.127.28.5 *start_polygon
+18-Jun-2018 08:45:56 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:46:01 cars_whole 013593 0 1 194.127.28.5  headlight 5 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:46:14 194.127.28.5 *start_polygon
+18-Jun-2018 08:48:34 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:48:39 cars_whole 013593 1 2 194.127.28.5  windshield 6 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:48:42 194.127.28.5 *start_polygon
+18-Jun-2018 08:49:03 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:49:07 cars_whole 013593 2 3 194.127.28.5  side_glass 7 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:49:14 cars_whole 013593 3 3 194.127.28.5  side_glass 7 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:49:14 cars_whole 013593 3 3 194.127.28.5  side_glass 7 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:49:17 194.127.28.5 *Opened_Edit_Popup
+18-Jun-2018 08:49:20 194.127.28.5 *Closed_Edit_Popup
+18-Jun-2018 08:49:20 cars_whole 013593 3 3 194.127.28.5  side_glass->side_glass 7 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:49:34 194.127.28.5 *start_polygon
+18-Jun-2018 08:50:25 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:50:33 cars_whole 013593 3 4 194.127.28.5  fender 8 anonymous cpts_not_modified 0 0
+18-Jun-2018 08:50:50 194.127.28.5 *start_polygon
+18-Jun-2018 08:51:28 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:51:46 194.127.28.5 *start_polygon
+18-Jun-2018 08:52:31 194.127.28.5 *What_is_this_object_query
+18-Jun-2018 08:52:42 cars_whole 013593 4 5 194.127.28.5  door 9 anonymous cpts_not_modified 0 0
